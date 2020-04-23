@@ -68,6 +68,7 @@
         left : 105rem;
         opacity: 0.6;
         text-shadow: 0 0 2rem $color-secondary-dark,0 0 4rem $color-secondary-dark,0 0 6rem $color-secondary-dark;
+<<<<<<< HEAD
 
       }
       
@@ -84,6 +85,23 @@
         text-shadow: 0 0 2rem $color-secondary-dark,0 0 4rem $color-secondary-dark,0 0 6rem $color-secondary-dark;
 
       }
+=======
+      }
+      
+      &__logorun3:nth-child(5){
+        left : 110rem;
+        color:transparent; 
+        -webkit-text-stroke:0.1rem $color-secondary;
+        }
+      &__logorun3:nth-child(6){
+        animation : chuyendongrungvaxoay 8s linear infinite;
+        color: $color-secondary;
+        left : 110rem;
+        opacity: 0.5;
+        text-shadow: 0 0 2rem $color-secondary-dark,0 0 4rem $color-secondary-dark,0 0 6rem $color-secondary-dark;
+
+      }
+>>>>>>> rem-edit
       &__logorun4:nth-child(7){
         left : 115rem;
         color:transparent; 
@@ -155,6 +173,7 @@
         width: 10rem;
         height: 10rem;
         transform-style: preserve-3d;
+       
         //animation: zoom 2s linear infinite;
         &__pic {
             position: absolute;
@@ -165,6 +184,10 @@
             transform-style: preserve-3d;
             transform: rotateX(-25deg) rotateY(25deg) translate3d(-7.5rem,-5rem,15rem);
             animation: loop 20s linear infinite;
+<<<<<<< HEAD
+=======
+            &:hover{animation-play-state: paused;}
+>>>>>>> rem-edit
             &___tech{
                 position: absolute;
                 top: 0;
@@ -175,6 +198,7 @@
                 filter: blur(0);
                 overflow: hidden;
                 transition: all .5s;
+                
             }
 
         }
@@ -322,9 +346,17 @@
     
 }
 .headland{
+<<<<<<< HEAD
   display:inline-flex;
+=======
+  display:flex;
+>>>>>>> rem-edit
   justify-content:center;
   align-items: center;
   min-height: 100vh;
   box-sizing: border-box;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> rem-edit
