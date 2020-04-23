@@ -138,7 +138,7 @@
     &:hover .running:nth-child(1)
     {
       left:100%;
-      transition: 0.4s;
+      transition: 0.2s;
     }
     & .running:nth-child(3){
       bottom:0;
@@ -150,8 +150,8 @@
     &:hover .running:nth-child(3)
     {
       right:100%;
-      transition: 0.4s;
-      transition-delay: 0.3s;
+      transition: 0.2s;
+      transition-delay: 0.15s;
     }
     & .running:nth-child(2){
       right:0%;
@@ -163,8 +163,8 @@
     &:hover .running:nth-child(2)
     {
       top:100%;
-      transition: 0.4s;
-      transition-delay: 0.2s;
+      transition: 0.2s;
+      transition-delay: 0.1s;
     }
     & .running:nth-child(4){
       bottom:-100%;
@@ -176,8 +176,8 @@
     &:hover .running:nth-child(4)
     {
       bottom:100%;
-      transition: 0.4s;
-      transition-delay: 0.35s;
+      transition: 0.2s;
+      transition-delay: 0.15s;
     }
     &:hover{
       color:$color-white;
@@ -185,7 +185,7 @@
       box-shadow: 0 0 10px $color-secondary-light ,
       0 0 40px $color-secondary-light,
       0 0 80px $color-secondary-light;
-      transition-delay: 0.5s;
+      transition-delay: 0.25s;
     }
     
   }
